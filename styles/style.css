@@ -1,23 +1,30 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
 /* The basic theme */
 section{
-    padding: 0 170px;
+    padding: 50px 170px;
+}
+
+button{
+    border-radius: 7px;
+    width: 130px;
+    padding: 8px 30px;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    user-select: none;
 }
 
  /* Section 1 */
- .sec-1{
-    color: white;
-    height: 535px;
-}
 
 .sec-1{
     background-color: #1F2937;
+
 }
 
 .sec-1 h1{
@@ -29,6 +36,7 @@ section{
 .sec-1 p, a{
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 100;
 }
 
 .logo-txt, h1{
@@ -40,7 +48,6 @@ section{
 .nav{
     display: flex;
     width: 100%;
-    padding: 20px 0;
 }
 
 .logo, .links{
@@ -66,5 +73,44 @@ ul, a{
 
 ul a:hover{
     text-decoration: underline;
+}
+
+/* Hero */
+.hero{
+    display: flex;
+    margin: 100px 0;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.hero-img, .hero-txt{
+    flex: 1;
+}
+
+.hero-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-btn{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    box-shadow: 151px 1px 0px -1px #224e95 inset;
+    -webkit-box-shadow: 151px 1px 0px -1px #224e95 inset;
+    -moz-box-shadow: 151px 1px 0px -1px #224e95 inset;
+}
+
+.hero-img{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #1F2937;
 }
 
