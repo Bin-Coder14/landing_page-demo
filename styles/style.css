@@ -20,7 +20,7 @@ button{
     user-select: none;
 }
 
- /* Section 1 */
+ /* Section-1 styling begins*/
 
 .sec-1{
     background-color: #1F2937;
@@ -39,7 +39,7 @@ button{
     font-weight: 100;
 }
 
-.logo-txt, h1{
+.logo-txt{
     color: #F9FAF8;
 }
 
@@ -114,3 +114,36 @@ ul a:hover{
     color: #1F2937;
 }
 
+
+
+ /* Section-2 styling begins*/
+
+
+.sec-2 h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.illustrations{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.illustration{
+    width: 200px;
+}
+.illustration-img{
+    height: 200px;
+    width: 100%;
+    border: #3882F6 2px solid;
+    border-radius: 7px;
+    margin: 12px 0;
+}
+.illustration-txt{
+    text-align: center;
+    font-size: 18px;
+}
