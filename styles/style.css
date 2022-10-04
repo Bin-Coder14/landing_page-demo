@@ -3,3 +3,28 @@
     margin: 0;
     font-family: Roboto, sans-serif;
 }
+
+.sec-1{
+    color: white;
+    height: 535px;
+}
+
+.sec-1, footer{
+    background-color: #1F2937;
+}
+
+.sec-1 h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sec-1 p, ul{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
