@@ -130,11 +130,13 @@ ul a:hover{
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 50px 0;
 }
 
 .illustration{
-    width: 200px;
+    min-width: 200px;
+    max-width: 220px;
 }
 .illustration-img{
     height: 200px;
@@ -146,4 +148,26 @@ ul a:hover{
 .illustration-txt{
     text-align: center;
     font-size: 18px;
+}
+
+
+/* Section 3 */
+.sec-3{
+    color: #1F2937;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    padding: 150px 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-txt{
+    width: 900px;
+    margin: auto;
+}
+
+.quote-person{
+    text-align: right;
+    font-weight: 500;
 }
