@@ -195,3 +195,12 @@ ul a:hover{
     background-color: #F9FAF8;
     color: #3882F6;
 }
+
+/* Footer */
+
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px;
+}
